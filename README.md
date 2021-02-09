@@ -1,4 +1,4 @@
-# bonsai
+# Bonsai
 Unofficial Cosmetic Webshop.
 
 This Website was created as a project for my Junior Front-End Portfolio.
