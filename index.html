@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONSAI | Home & Body Cosmetics | Unofficial Webshop </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav>
+            <i class="fas fa-bars burger"></i>
+            <ul class="nav-items">
+                <i class="fas fa-times close-nav"></i>
+                <li class="nav-item inl"><a href="index.html" class="active">Home</a></li>
+                <li class="nav-item inl"><a href="products.html">Products</a></li>
+                <li class="nav-item inl"><a href="gifts.html">Gifts</a></li>
+                <li class="nav-item inl"><a href="contact.html">Contact</a></li>
+                <section>
+                    <a class="inl" href="account.html">My Account</a>
+                    <a class="inl" href="contact.html">Costomer Service</a>
+                    <a class="inl" href="member.html">Become a Member</a>
+                    <a class="inl" href="app.html">Download our App</a>
+                </section>
+            </ul>
+            <h1 class="logo"><img src="./images/logo.png" alt=""> BONSAI</h1>
+            <i class="far fa-user-circle account"></i>
+            <i class="fas fa-shopping-cart cart"></i>
+            <section class="full-cart">
+                <i class="fas fa-times close-cart"></i>
+                <h1>My Cart</h1>
+                <h5 class="product-count">0 products</h5>
+                <div class="cart-container"></div>
+                <div class="cart-total"><h3>TOTALAMOUNT</h3> <h2 class="total">€0,00</h2></div>
+                <p>Delivery 1-3 workdays</p>
+                <section class="cart-btns">
+                    <button class="cont-shop">Continue Shopping</button>
+                    <button class="checkout-btn">Checkout</button>
+                </section>
+            </section>
+        </nav>
+        <div class="header">
+            <img src="images/home-bg.jpg" alt="" class="bg-img">
+            <img class="logo" src="./images/logo.png" alt="">
+            <h1>SPRING SALE</h1>
+            <p>You receive up to 50% discount on selected products!*</p>
+            <button class="sale" onclick="shopNow()">SHOP SALE</button>
+            <section class="terms">*TERMS & CONDITIONS</section>
+            <span class="term">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti totam ipsum ipsam ratione, pariatur quibusdam debitis alias optio delectus enim maiores explicabo eos recusandae voluptatem odio ea tempora reprehenderit perferendis?</span>
+        </div>
+    </header>
+    <main>
+        <section class="ays">
+            <h5>AT YOU SERVICE</h5>
+            <p class="service1" style="opacity: 1;">Delivery in 1-3 workdays</p>
+            <p class="service2">Free shipping with order over €30,- for BONSAI Members</p>
+            <p class="service3">Receive a Giftbox for orders over €40,-</p>
+            <div class="dots"><i class="fas fa-circle service1" style="opacity: 1;"></i><i class="fas fa-circle service2"></i><i class="fas fa-circle service3"></i></div>
+        </section>
+        <div class="card">
+            <div class="card-info">
+                <h5>EXCLUSIVE FOR BONSAI MEMBERS</h5>
+                <h1>Your Gift</h1>
+                <p>Receive a giftbox for orders over €40,-.*</p>
+                <button class="shop-now" onclick="shopNow()">SHOP NOW</button>
+            </div>
+            <img src="./images/thumb4.png" alt="">
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h1>Natural Handcream</h1>
+                <p>For hands that want to be nourished and cared for.</p>
+                <button class="shop-now" onclick="shopNow()">SHOP NOW</button>
+            </div>
+            <img src="./images/thumb2.png" alt="">
+        </div>
+        <section>
+            <h5>THE BEST CHOISE</h5>
+            <h1>Essentials for the Spring</h1>
+            <p>Nourish and care for dry skin with our special selection for the Spring.</p>
+            <div class="left-scroll"><</div>
+            <div class="right-scroll">></div>
+            <div class="carousel"><div class="products cosm-products"></div></div>
+            <button class="shop-now" onclick="shopNow()">SHOP NOW</button>
+        </section>
+        <div class="card">
+            <div class="card-info">
+                <h5>EXCLUSIVE FOR BONSAI MEMBERS</h5>
+                <h1>Skincare with a Boost</h1>
+                <p>Discover the easy 3-step plan for nourished, hydrated and radiant skin.</p>
+                <button class="shop-now" onclick="window.location.href = './detox.html'">DISCOVER MORE</button>
+            </div>
+            <img src="./images/thumb3.png" alt="">
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h1>95% Natural Hand Balm</h1>
+                <p>Your hands deserve the best.</p>
+                <button class="shop-now" onclick="shopNow()">SHOP NOW</button>
+            </div>
+            <img src="./images/thumb1.png" alt="">
+        </div>
+
+        <section>
+            <h5>JUST ARRIVED</h5>
+            <h1>Natural Boost for your Skin</h1>
+            <p>Personalize your skincare routine with our new natural boosters.</p>
+            <div class="carousel"><div class="products spec-products"></div></div>
+            <button class="shop-now" onclick="shopNow()">SHOP NOW</button>
+        </section>
+
+        <div class="card">
+            <div class="card-info">
+                <h5>NEW</h5>
+                <h1>Natural Sheet Mask</h1>
+                <p>For a hydration boost and radiant skin.</p>
+                <button class="shop-now" onclick="shopNow()">SHOP NOW</button>
+            </div>
+            <img src="./images/thumb5.png" alt="">
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h1>Sustainable Well-being</h1>
+                <p>What are we doing to reduce our CO2 footprint? Discover how we walk the path of sustainability and well-being.</p>
+                <button class="shop-now" onclick="window.location.href = './sustainable.html'">READ MORE</button>
+            </div>
+            <img src="./images/thumb6.png" alt="">
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h1>Gifts With A Personal Touch</h1>
+                <p>Personalize the perfect gift for your loved ones, packaged in a luxury gift set with a personalized card.</p>
+                <button class="shop-now" onclick="window.location.href = './gifts.html'">SHOP NOW</button>
+            </div>
+            <img src="./images/thumb7.png" alt="">
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h5>EXCLUSIVE FOR BONSAI MEMBERS</h5>
+                <h1>Detox your Skin</h1>
+                <p>For improved and radiant skin.</p>
+                <button class="shop-now" onclick="window.location.href = 'detox.html'">KEEP ON SHINING</button>
+            </div>
+            <img src="./images/thumb8.png" alt="">
+        </div>
+
+        <section class="member">
+            <img src="./images/bonsai-tree.png" alt="">
+            <div class="member-info">
+                <h5>BECOME MEMBER</h5>
+                <h1>Let the Bonsai Grow</h1>
+                <p>Discover the world of Bonsai and let yourself be surprised. Your welcome gift is already waiting for you!</p>
+                <button onclick="window.location.href = './member.html'">BECOME MEMBER</button>
+            </div>
+        </section>
+        <div class="overlay"></div>
+    </main>
+    <footer id="contact">
+        <h1>Stay Informed</h1>
+        <p>Sign up for the latest Rituals news and receive exclusive offers. Rituals uses your personal information as described in our Privacy Policy.</p>
+        <form action="">
+            <input id="news-input" type="email" placeholder="e-mail" required>
+            <button id="news-btn">SUBSCRIBE</button>
+        </form>
+        <div class="helpdesk">
+            <h3>Call our Helpdesk</h3>
+            <p>t: 555-115574957</p>
+            <p>Monday - Friday</p>
+            <p>09:00 - 21:00</p>
+        </div>
+        <div class="socials">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-pinterest-square"></i>
+            <i class="fab fa-youtube-square"></i>
+        </div>
+        <section>
+            <a class="inl" href="account.html">My Account</a>
+            <a class="inl" href="contact.html">Costomer Service</a>
+            <a class="inl" href="member.html">Become a Member</a>
+            <a class="inl" href="app.html">Download our App</a>
+        </section>
+        <img src="./images/logo.png" alt="">
+    </footer>
+    <div class="credits">
+        Portfolio project made by Mark Jonkers.
+    </div>
+    
+    <script src="js/app.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
